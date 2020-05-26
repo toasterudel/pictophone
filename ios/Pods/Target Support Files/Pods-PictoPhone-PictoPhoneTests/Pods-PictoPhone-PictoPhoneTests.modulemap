@@ -1,0 +1,6 @@
+module Pods_PictoPhone_PictoPhoneTests {
+  umbrella header "Pods-PictoPhone-PictoPhoneTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
