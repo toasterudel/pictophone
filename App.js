@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React from "react";
 import {
   SafeAreaView,
@@ -14,62 +6,47 @@ import {
   View,
   Text,
   StatusBar,
+  Button,
 } from "react-native";
-import { BleManager } from "react-native-ble-plx";
+
+//https://www.npmjs.com/package/react-native-ble-manager
+import BleManager from "react-native-ble-manager";
+
+const styles = StyleSheet.create({
+  middle: {
+    alignSelf: "center",
+    color: "red",
+  },
+});
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.manager = new BleManager();
+  constructor(props) {
+    super(props);
+    // this.manager = new BleManager();
+    this.state = {
+      count: 0,
+    };
+    this.increment = this.increment.bind(this);
   }
 
+  //runs on load
   componentDidMount() {
-    const subscription = this.manager.onStateChange((state) => {
-      if (state === "PoweredOn") {
-        this.scanAndConnect();
-        subscription.remove();
-      }
-    }, true);
-  }
-
-  scanAndConnect() {
-    this.manager.startDeviceScan(null, null, (error, device) => {
-      if (error) {
-        // Handle error (scanning will be stopped automatically)
-        return;
-      }
-
-      // Check if it is a device you are looking for based on advertisement data
-      // or other criteria.
-      if (device.name === "TI BLE Sensor Tag" || device.name === "SensorTag") {
-        // Stop scanning as it's not necessary if you are scanning for one device.
-        this.manager.stopDeviceScan();
-
-        // Proceed with connection.
-        device
-          .connect()
-          .then((device) => {
-            return device.discoverAllServicesAndCharacteristics();
-          })
-          .then((device) => {
-            //do work
-          })
-          .catch((error) => {
-            console.error(error);
-          });
-      }
+    BleManager.start({ showAlert: false }).then(() => {
+      //success
+      console.log("started ble manager");
     });
   }
 
-  componentWillUnmount() {
-    this.manager.destroy();
+  increment() {
+    this.setState({ count: this.state.count + 1 });
   }
 
   render() {
     return (
       <>
         <SafeAreaView>
-          <Text>Hello World</Text>
+          <Button title="Increment" onPress={this.increment} />
+          <Text style={styles.middle}>{this.state.count}</Text>
         </SafeAreaView>
       </>
     );
