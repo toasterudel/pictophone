@@ -1,3 +1,4 @@
+import "react-native-gesture-handler";
 import React from "react";
 import {
   SafeAreaView,
@@ -9,8 +10,15 @@ import {
   Button,
 } from "react-native";
 
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+
 //https://www.npmjs.com/package/react-native-ble-manager
 import BleManager from "react-native-ble-manager";
+
+import Home from "./screens/Home";
+import Lobby from "./screens/Lobby";
+import ServerList from "./screens/ServerList";
 
 const styles = StyleSheet.create({
   middle: {
@@ -18,6 +26,8 @@ const styles = StyleSheet.create({
     color: "red",
   },
 });
+
+const Stack = createStackNavigator();
 
 class App extends React.Component {
   constructor(props) {
@@ -41,14 +51,23 @@ class App extends React.Component {
     this.setState({ count: this.state.count + 1 });
   }
 
+  /*
+            <SafeAreaView>
+            <Stack.Screen name="Home" component={Home} />
+            <Button title="Increment" onPress={this.increment} />
+            <Text style={styles.middle}>{this.state.count}</Text>
+          </SafeAreaView>
+*/
+
   render() {
     return (
-      <>
-        <SafeAreaView>
-          <Button title="Increment" onPress={this.increment} />
-          <Text style={styles.middle}>{this.state.count}</Text>
-        </SafeAreaView>
-      </>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Lobby" component={Lobby} />
+          <Stack.Screen name="ServerList" component={ServerList} />
+        </Stack.Navigator>
+      </NavigationContainer>
     );
   }
 }
