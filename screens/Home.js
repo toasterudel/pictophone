@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Text, Button, Image, StyleSheet } from "react-native";
+import BleManager from "react-native-ble-manager";
 
 const styles = StyleSheet.create({
   tinyLogo: {
@@ -12,6 +13,13 @@ const styles = StyleSheet.create({
 });
 
 function Home({ navigation }) {
+  useEffect(() => {
+    BleManager.start({ showAlert: false }).then(() => {
+      //success
+      console.log("started ble manager");
+    });
+  }, []);
+
   return (
     <>
       <Image
@@ -27,6 +35,12 @@ function Home({ navigation }) {
         title="Click here to go to the List of Servers screen"
         onPress={() => {
           navigation.navigate("ServerList");
+        }}
+      />
+      <Button
+        title="Discover Available Devices"
+        onPress={() => {
+          navigation.navigate("Discover");
         }}
       />
     </>

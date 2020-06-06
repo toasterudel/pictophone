@@ -13,19 +13,10 @@ import {
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-//https://www.npmjs.com/package/react-native-ble-manager
-import BleManager from "react-native-ble-manager";
-
 import Home from "./screens/Home";
 import Lobby from "./screens/Lobby";
 import ServerList from "./screens/ServerList";
-
-const styles = StyleSheet.create({
-  middle: {
-    alignSelf: "center",
-    color: "red",
-  },
-});
+import Discover from "./screens/Discover";
 
 const Stack = createStackNavigator();
 
@@ -40,12 +31,7 @@ class App extends React.Component {
   }
 
   //runs on load
-  componentDidMount() {
-    BleManager.start({ showAlert: false }).then(() => {
-      //success
-      console.log("started ble manager");
-    });
-  }
+  componentDidMount() {}
 
   increment() {
     this.setState({ count: this.state.count + 1 });
@@ -66,6 +52,7 @@ class App extends React.Component {
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Lobby" component={Lobby} />
           <Stack.Screen name="ServerList" component={ServerList} />
+          <Stack.Screen name="Discover" component={Discover} />
         </Stack.Navigator>
       </NavigationContainer>
     );
