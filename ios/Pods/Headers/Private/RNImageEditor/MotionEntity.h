@@ -1,0 +1,1 @@
+../../../../../node_modules/@wwimmo/react-native-sketch-canvas/ios/RNImageEditor/RNImageEditor/entities/base/MotionEntity.h
