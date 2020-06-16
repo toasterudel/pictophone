@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60F5E508153AB9F99E48BF79 /* Pods_PictoPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78277BFCD6B1CF7809EA3EBB /* Pods_PictoPhone.framework */; };
+		8387E11D2499435A0041CD0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387E11C2499435A0041CD0E /* AppDelegate.swift */; };
+		8387E11F2499435A0041CD0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387E11E2499435A0041CD0E /* SceneDelegate.swift */; };
+		8387E1212499435A0041CD0E /* NameChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387E1202499435A0041CD0E /* NameChooseView.swift */; };
+		8387E1242499435A0041CD0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8387E1222499435A0041CD0E /* Main.storyboard */; };
+		8387E1262499435C0041CD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8387E1252499435C0041CD0E /* Assets.xcassets */; };
+		8387E1292499435C0041CD0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8387E1272499435C0041CD0E /* LaunchScreen.storyboard */; };
+		83DDDDD224996A640010A143 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDDDD124996A640010A143 /* MessagesView.swift */; };
+		83DDDDD424996E0B0010A143 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDDDD324996E0B0010A143 /* ChatMessageCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B2EED7A38617C36BD344FEB /* Pods-PictoPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictoPhone.release.xcconfig"; path = "Target Support Files/Pods-PictoPhone/Pods-PictoPhone.release.xcconfig"; sourceTree = "<group>"; };
+		78277BFCD6B1CF7809EA3EBB /* Pods_PictoPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictoPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387E1192499435A0041CD0E /* PictoPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictoPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387E11C2499435A0041CD0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8387E11E2499435A0041CD0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8387E1202499435A0041CD0E /* NameChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameChooseView.swift; sourceTree = "<group>"; };
+		8387E1232499435A0041CD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8387E1252499435C0041CD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8387E1282499435C0041CD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8387E12A2499435C0041CD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8387E1302499448F0041CD0E /* PictoPhone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PictoPhone-Bridging-Header.h"; sourceTree = "<group>"; };
+		83DDDDD124996A640010A143 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		83DDDDD324996E0B0010A143 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		A73D731BB91C6F9BCAFD44DC /* Pods-PictoPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictoPhone.debug.xcconfig"; path = "Target Support Files/Pods-PictoPhone/Pods-PictoPhone.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8387E1162499435A0041CD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F5E508153AB9F99E48BF79 /* Pods_PictoPhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A9A371EEC255272573887B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78277BFCD6B1CF7809EA3EBB /* Pods_PictoPhone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A7292464BA34F9478A7196B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A73D731BB91C6F9BCAFD44DC /* Pods-PictoPhone.debug.xcconfig */,
+				6B2EED7A38617C36BD344FEB /* Pods-PictoPhone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8387E1102499435A0041CD0E = {
+			isa = PBXGroup;
+			children = (
+				8387E11B2499435A0041CD0E /* PictoPhone */,
+				8387E11A2499435A0041CD0E /* Products */,
+				7A7292464BA34F9478A7196B /* Pods */,
+				27A9A371EEC255272573887B /* Frameworks */,
+				8387E1302499448F0041CD0E /* PictoPhone-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		8387E11A2499435A0041CD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8387E1192499435A0041CD0E /* PictoPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8387E11B2499435A0041CD0E /* PictoPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8387E11C2499435A0041CD0E /* AppDelegate.swift */,
+				8387E11E2499435A0041CD0E /* SceneDelegate.swift */,
+				8387E1202499435A0041CD0E /* NameChooseView.swift */,
+				8387E1222499435A0041CD0E /* Main.storyboard */,
+				83DDDDD324996E0B0010A143 /* ChatMessageCell.swift */,
+				83DDDDD124996A640010A143 /* MessagesView.swift */,
+				8387E1252499435C0041CD0E /* Assets.xcassets */,
+				8387E1272499435C0041CD0E /* LaunchScreen.storyboard */,
+				8387E12A2499435C0041CD0E /* Info.plist */,
+			);
+			path = PictoPhone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8387E1182499435A0041CD0E /* PictoPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8387E12D2499435C0041CD0E /* Build configuration list for PBXNativeTarget "PictoPhone" */;
+			buildPhases = (
+				50D2ED40EBC38C9EF8BC6C1F /* [CP] Check Pods Manifest.lock */,
+				8387E1152499435A0041CD0E /* Sources */,
+				8387E1162499435A0041CD0E /* Frameworks */,
+				8387E1172499435A0041CD0E /* Resources */,
+				4D0B848DCCFAE38729B03988 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictoPhone;
+			productName = PictoPhone;
+			productReference = 8387E1192499435A0041CD0E /* PictoPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8387E1112499435A0041CD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Chris Rudel";
+				TargetAttributes = {
+					8387E1182499435A0041CD0E = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 8387E1142499435A0041CD0E /* Build configuration list for PBXProject "PictoPhone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8387E1102499435A0041CD0E;
+			productRefGroup = 8387E11A2499435A0041CD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8387E1182499435A0041CD0E /* PictoPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8387E1172499435A0041CD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387E1292499435C0041CD0E /* LaunchScreen.storyboard in Resources */,
+				8387E1262499435C0041CD0E /* Assets.xcassets in Resources */,
+				8387E1242499435A0041CD0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D0B848DCCFAE38729B03988 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictoPhone/Pods-PictoPhone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictoPhone/Pods-PictoPhone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PictoPhone/Pods-PictoPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50D2ED40EBC38C9EF8BC6C1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictoPhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8387E1152499435A0041CD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DDDDD224996A640010A143 /* MessagesView.swift in Sources */,
+				8387E1212499435A0041CD0E /* NameChooseView.swift in Sources */,
+				8387E11D2499435A0041CD0E /* AppDelegate.swift in Sources */,
+				83DDDDD424996E0B0010A143 /* ChatMessageCell.swift in Sources */,
+				8387E11F2499435A0041CD0E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8387E1222499435A0041CD0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8387E1232499435A0041CD0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8387E1272499435C0041CD0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8387E1282499435C0041CD0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8387E12B2499435C0041CD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8387E12C2499435C0041CD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8387E12E2499435C0041CD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73D731BB91C6F9BCAFD44DC /* Pods-PictoPhone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7B63H6297;
+				INFOPLIST_FILE = PictoPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudel.PictoPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PictoPhone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8387E12F2499435C0041CD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2EED7A38617C36BD344FEB /* Pods-PictoPhone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7B63H6297;
+				INFOPLIST_FILE = PictoPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudel.PictoPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PictoPhone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8387E1142499435A0041CD0E /* Build configuration list for PBXProject "PictoPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387E12B2499435C0041CD0E /* Debug */,
+				8387E12C2499435C0041CD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8387E12D2499435C0041CD0E /* Build configuration list for PBXNativeTarget "PictoPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387E12E2499435C0041CD0E /* Debug */,
+				8387E12F2499435C0041CD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8387E1112499435A0041CD0E /* Project object */;
+}
