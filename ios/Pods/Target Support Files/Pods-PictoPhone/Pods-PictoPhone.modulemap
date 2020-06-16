@@ -1,6 +1,0 @@
-module Pods_PictoPhone {
-  umbrella header "Pods-PictoPhone-umbrella.h"
-
-  export *
-  module * { export * }
-}
