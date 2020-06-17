@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PictoPhone.iml" filepath="$PROJECT_DIR$/.idea/modules/PictoPhone.iml" group="PictoPhone" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="PictoPhone/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-511646042/react-native-ble-manager.iml" filepath="$PROJECT_DIR$/.idea/modules/-511646042/react-native-ble-manager.iml" group="PictoPhone/react-native-ble-manager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-794577946/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-794577946/react-native-community_masked-view.iml" group="PictoPhone/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-368179279/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-368179279/react-native-gesture-handler.iml" group="PictoPhone/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2078985163/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/2078985163/react-native-reanimated.iml" group="PictoPhone/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-981600294/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-981600294/react-native-safe-area-context.iml" group="PictoPhone/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-960855950/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-960855950/react-native-screens.iml" group="PictoPhone/react-native-screens" />
+    </modules>
+  </component>
+</project>
