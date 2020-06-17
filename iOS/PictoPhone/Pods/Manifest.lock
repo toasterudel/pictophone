@@ -1,0 +1,16 @@
+PODS:
+  - BFTransmitter (1.0.1)
+
+DEPENDENCIES:
+  - BFTransmitter
+
+SPEC REPOS:
+  trunk:
+    - BFTransmitter
+
+SPEC CHECKSUMS:
+  BFTransmitter: ca46dba086ac6cca4bd13e46b3f1b0be0131e55a
+
+PODFILE CHECKSUM: 9bb3454c1d371a76bdd6c6afadd16a7f740b2a27
+
+COCOAPODS: 1.9.3

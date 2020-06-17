@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A8FD4764B4CE999671CCD879C9B0616A /* BFTransmitter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 82DB22B2A9BBA9BC56ED9163166912C8 /* Build configuration list for PBXAggregateTarget "BFTransmitter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BFTransmitter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4501A5CF65BCEED21ABB743B67C372AD /* Pods-PictoPhone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC767FAB4A3B1EEDFFB079D154C427B4 /* Pods-PictoPhone-dummy.m */; };
+		862EC2DD28AF01F27B0BC3436A8056E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E24D13FD7DF143048EA64FA2058C3F87 /* Pods-PictoPhone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E22652A876725DA8B5E6039D272706 /* Pods-PictoPhone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D22E567403BF21B4F2A8A9072359185C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FD4764B4CE999671CCD879C9B0616A;
+			remoteInfo = BFTransmitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007D2C16BBE81B4ACFAB62E90D5A6839 /* Pods-PictoPhone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PictoPhone-Info.plist"; sourceTree = "<group>"; };
+		06BF71609073B834C84F5FF58D5FD921 /* Pods-PictoPhone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PictoPhone-frameworks.sh"; sourceTree = "<group>"; };
+		103D7E207B85F1CA9D17AC5BE7D09714 /* BFTransmitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFTransmitter.release.xcconfig; sourceTree = "<group>"; };
+		31E22652A876725DA8B5E6039D272706 /* Pods-PictoPhone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PictoPhone-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38259E953582F6C3917BC1E77C3A0679 /* Pods-PictoPhone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PictoPhone-acknowledgements.plist"; sourceTree = "<group>"; };
+		497F6932BA99EF68F879496451DA6C1E /* Pods-PictoPhone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PictoPhone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B069E12E7F484BA2177664D468A62A2 /* BFConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFConstants.h; path = BFTransmitter.framework/Headers/BFConstants.h; sourceTree = "<group>"; };
+		8D79D14914949AF3BA0547262A9DF2E1 /* Pods-PictoPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PictoPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B77F7166FDB9B53C1BABA79A5BD232CB /* BFTransmitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BFTransmitter.framework; sourceTree = "<group>"; };
+		B896CA3544BBC19AEBD5EA794280EA9F /* Pods_PictoPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PictoPhone.framework; path = "Pods-PictoPhone.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE78BACFEFE779B22256F243D930D50 /* Pods-PictoPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PictoPhone.release.xcconfig"; sourceTree = "<group>"; };
+		BFE93D67EC0420846AF51592BADD90EE /* BFTransmitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFTransmitter.debug.xcconfig; sourceTree = "<group>"; };
+		CC767FAB4A3B1EEDFFB079D154C427B4 /* Pods-PictoPhone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PictoPhone-dummy.m"; sourceTree = "<group>"; };
+		FA91F446A2E7EAC6516D1ADA80C536C5 /* Pods-PictoPhone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PictoPhone.modulemap"; sourceTree = "<group>"; };
+		FF96B8449BF0DEE0F26E5F239ED8499C /* BFTransmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTransmitter.h; path = BFTransmitter.framework/Headers/BFTransmitter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF10FAD27F7C50EA46DB8CB14B5EAD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862EC2DD28AF01F27B0BC3436A8056E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C550F621CDBDD8D778C9B40BD65DBB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B77F7166FDB9B53C1BABA79A5BD232CB /* BFTransmitter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F00000F6A624E94BC2807577C672B36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE93D67EC0420846AF51592BADD90EE /* BFTransmitter.debug.xcconfig */,
+				103D7E207B85F1CA9D17AC5BE7D09714 /* BFTransmitter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BFTransmitter";
+			sourceTree = "<group>";
+		};
+		5A7E435CAD3001667DB356054C0FE2E9 /* BFTransmitter */ = {
+			isa = PBXGroup;
+			children = (
+				4B069E12E7F484BA2177664D468A62A2 /* BFConstants.h */,
+				FF96B8449BF0DEE0F26E5F239ED8499C /* BFTransmitter.h */,
+				1C550F621CDBDD8D778C9B40BD65DBB7 /* Frameworks */,
+				1F00000F6A624E94BC2807577C672B36 /* Support Files */,
+			);
+			name = BFTransmitter;
+			path = BFTransmitter;
+			sourceTree = "<group>";
+		};
+		AB39D28A2C86922B6B23ED4F02EB9126 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E435CAD3001667DB356054C0FE2E9 /* BFTransmitter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AB39D28A2C86922B6B23ED4F02EB9126 /* Pods */,
+				F1AB9E4520FB78B76966CA862F778CB3 /* Products */,
+				D706AA8574B8F5ABB110EE99E768C8F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D706AA8574B8F5ABB110EE99E768C8F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCCCF0C5441610CA1F07BC8B2277F13 /* Pods-PictoPhone */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F1AB9E4520FB78B76966CA862F778CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B896CA3544BBC19AEBD5EA794280EA9F /* Pods_PictoPhone.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCCCF0C5441610CA1F07BC8B2277F13 /* Pods-PictoPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FA91F446A2E7EAC6516D1ADA80C536C5 /* Pods-PictoPhone.modulemap */,
+				497F6932BA99EF68F879496451DA6C1E /* Pods-PictoPhone-acknowledgements.markdown */,
+				38259E953582F6C3917BC1E77C3A0679 /* Pods-PictoPhone-acknowledgements.plist */,
+				CC767FAB4A3B1EEDFFB079D154C427B4 /* Pods-PictoPhone-dummy.m */,
+				06BF71609073B834C84F5FF58D5FD921 /* Pods-PictoPhone-frameworks.sh */,
+				007D2C16BBE81B4ACFAB62E90D5A6839 /* Pods-PictoPhone-Info.plist */,
+				31E22652A876725DA8B5E6039D272706 /* Pods-PictoPhone-umbrella.h */,
+				8D79D14914949AF3BA0547262A9DF2E1 /* Pods-PictoPhone.debug.xcconfig */,
+				BDE78BACFEFE779B22256F243D930D50 /* Pods-PictoPhone.release.xcconfig */,
+			);
+			name = "Pods-PictoPhone";
+			path = "Target Support Files/Pods-PictoPhone";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9170314E3CC8FECB941F2516DAA28CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24D13FD7DF143048EA64FA2058C3F87 /* Pods-PictoPhone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DAA87605DE55CA314A5F02DCC06F23EB /* Pods-PictoPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F505351C04594CDA48499231E0F1F2E /* Build configuration list for PBXNativeTarget "Pods-PictoPhone" */;
+			buildPhases = (
+				A9170314E3CC8FECB941F2516DAA28CD /* Headers */,
+				CEE67A98A0F1B0B3AA5CC0F9D24B5385 /* Sources */,
+				FF10FAD27F7C50EA46DB8CB14B5EAD18 /* Frameworks */,
+				2DF2A8B0C2F188A07D69FEE2889524D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B40D2995403758D8BA24893158323BD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-PictoPhone";
+			productName = "Pods-PictoPhone";
+			productReference = B896CA3544BBC19AEBD5EA794280EA9F /* Pods_PictoPhone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F1AB9E4520FB78B76966CA862F778CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8FD4764B4CE999671CCD879C9B0616A /* BFTransmitter */,
+				DAA87605DE55CA314A5F02DCC06F23EB /* Pods-PictoPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DF2A8B0C2F188A07D69FEE2889524D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE67A98A0F1B0B3AA5CC0F9D24B5385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4501A5CF65BCEED21ABB743B67C372AD /* Pods-PictoPhone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B40D2995403758D8BA24893158323BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BFTransmitter;
+			target = A8FD4764B4CE999671CCD879C9B0616A /* BFTransmitter */;
+			targetProxy = D22E567403BF21B4F2A8A9072359185C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		68E95000B23871BC7CAD342C520D48DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE78BACFEFE779B22256F243D930D50 /* Pods-PictoPhone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PictoPhone/Pods-PictoPhone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PictoPhone/Pods-PictoPhone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70081454275CF8BE6911FF645D4F1D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE93D67EC0420846AF51592BADD90EE /* BFTransmitter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		832652C903BF0BBBC97F4C22A3071DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D79D14914949AF3BA0547262A9DF2E1 /* Pods-PictoPhone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PictoPhone/Pods-PictoPhone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PictoPhone/Pods-PictoPhone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C8571C2CC386935254CA3D60C47A4318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103D7E207B85F1CA9D17AC5BE7D09714 /* BFTransmitter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DB22B2A9BBA9BC56ED9163166912C8 /* Build configuration list for PBXAggregateTarget "BFTransmitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70081454275CF8BE6911FF645D4F1D76 /* Debug */,
+				C8571C2CC386935254CA3D60C47A4318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F505351C04594CDA48499231E0F1F2E /* Build configuration list for PBXNativeTarget "Pods-PictoPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832652C903BF0BBBC97F4C22A3071DC6 /* Debug */,
+				68E95000B23871BC7CAD342C520D48DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
