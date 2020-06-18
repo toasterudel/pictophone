@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e837e0ab-f9d6-4387-8e4a-eba43494d0e6" name="Default Changelist" comment="" />
+    <list default="true" id="585f2a18-81fc-4192-bdbf-f32656df4bee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,19 +16,14 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1cpqKBeHSm69TkmPpDbXKG1WT0e" />
+  <component name="ProjectId" id="1dVwx5i6WyA21gcVONl64EUCGa7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,11 +31,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_XL_API_28" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-08T23:14:30.776Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -53,7 +45,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -110,54 +102,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e837e0ab-f9d6-4387-8e4a-eba43494d0e6" name="Default Changelist" comment="" />
-      <created>1591235815167</created>
+      <changelist id="585f2a18-81fc-4192-bdbf-f32656df4bee" name="Default Changelist" comment="" />
+      <created>1592523813897</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591235815167</updated>
+      <updated>1592523813897</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="561" y="173" key="#Notifications" timestamp="1591658332362">
+    <state x="314" y="113" width="1200" height="800" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1592523873298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="561" y="173" key="#Notifications/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1591658332362" />
-    <state x="477" y="252" key="#PSD" timestamp="1591236691460">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="477" y="252" key="#PSD/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1591236691460" />
-    <state width="670" height="266" key="GridCell.Tab.0.bottom" timestamp="1591658478091">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="670" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1591658478091" />
-    <state width="670" height="266" key="GridCell.Tab.0.center" timestamp="1591658478091">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="670" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1591658478091" />
-    <state width="670" height="266" key="GridCell.Tab.0.left" timestamp="1591658478090">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="670" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1591658478090" />
-    <state width="670" height="266" key="GridCell.Tab.0.right" timestamp="1591658478091">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="670" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1591658478091" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1592089638427">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1592089638427" />
-    <state x="369" y="115" width="1200" height="800" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1591657792580">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="369" y="115" width="1200" height="800" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1591657792580" />
-    <state x="665" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1591479661396">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="665" y="339" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1591479661396" />
-    <state x="632" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1591236709699">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="632" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1591236709699" />
+    <state x="314" y="113" width="1200" height="800" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040/-1920.122.1920.1040@0.0.1920.1040" timestamp="1592523873298" />
   </component>
 </project>
